@@ -1,0 +1,110 @@
+.color_pink {
+  background: #e6c8c3;
+}
+
+.color_pink_dark {
+  background: #ebd9d6;
+}
+
+.color_letter {
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 115px;
+  color: #484f5b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: right;
+}
+
+.Banner_title {
+  font-size: 75px;
+  /* letter-spacing: 1px; */
+  color: #484f5b;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+
+.Banner_p {
+  /* width: 561px;
+  height: 102px; */
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 33px;
+  color: #484f5b;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.btn_text {
+  /* font-size: 21px; */
+  letter-spacing: 0px;
+  line-height: 33px;
+  color: #484f5b;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.container_img > img {
+  width: 70px;
+}
+
+.container_links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header {
+  /* background-image: url("assets/bannerImg.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body1 {
+  background-image: url("assets/img2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.brush {
+  background-image: url("assets/Brush.png");
+  background-repeat: no-repeat;
+}
+
+.program_letter {
+  width: 301px;
+  /* height: 68px; */
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 33px;
+  color: #484f5b;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.body4 {
+  background-image: url("assets/img4.png");
+  background-repeat: no-repeat;
+  background-color: #f1ece9;
+  background-attachment: fixed;
+  /* background-size: cover; */
+}
+
+.body6 {
+  background-color: #e5ccc6;
+}
+
+.btn_SocialMedia {
+  background-color: #484f5b;
+}
+
+.footer_bg {
+  background-color: #484f5b;
+}
+
+@media (max-width: 768px) {
+  .Banner_title {
+    font-size: 30px;
+  }
+}
